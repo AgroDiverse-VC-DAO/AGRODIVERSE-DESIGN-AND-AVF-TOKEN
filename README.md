@@ -12,24 +12,45 @@ AgroDiverse VC (AVC) is a decentralized autonomous organization (DAO) operating 
 
 **Purpose:**
 - AVC pools capital from members to acquire and hold a basket of cryptocurrencies, backing the AVF token.
-- Focuses on long-term appreciation, potential yields (e.g., staking ETH or SOL), and periodic rebalancing.
 - Asset-backed (not startup equity); yields/profits are reinvested or distributed per DAO votes.
 
-**Asset Allocation (Basket Composition):**
+### 1.1 Investment Strategy
+
+**Objective:**
+The investment strategy prioritizes:
+- Diversified exposure
+- Controlled volatility
+- Yield capture where appropriate
+- Disciplined rebalancing
+
+**Goal:** Sustainable, risk-managed growth—not speculative outperformance.
+
+### 1.2 Initial Portfolio Allocation (Phase 1)
+
+Initial capital deployment ($280,000 equivalent):
 
 | Asset | Network | Allocation | Rationale |
 |-------|---------|------------|-----------|
 | BTC   | Bitcoin | 30%        | Store-of-value, long-term growth |
-| ETH   | Ethereum| 10%        | Smart contracts, DeFi exposure   |
+| ETH   | Ethereum| 12%        | Smart contracts, DeFi exposure   |
+| SOL   | Solana  | 6%         | High-throughput, ecosystem growth |
 | XRP   | XRP Ledger | 5%      | Fast, low-cost cross-border utility |
-| SOL   | Solana  | 5%         | High-throughput, ecosystem growth |
-| D223  | Ethereum| 20%        | DEX223 innovation, utility yields |
 | XLM   | Stellar | 5%         | Micropayments, interoperability |
-| Other | Multi   | 25%        | Stablecoins, emerging tokens (agritech/DeFi), DAO-selected |
+| D223  | Ethereum| 12%        | DEX223 innovation, utility yields |
+| Other Tokens | Multi | 10% | Size-capped and memo-approved |
+| Stablecoin Reserve | Multi | 20% | Liquidity buffer, operational runway, risk management |
 
-- **Backing Mechanism:** AVF is fully backed by the basket. Capital raised is used to purchase assets proportionally. NAV (Net Asset Value) of AVF tokens is determined by the basket's value.
-- **Risk Management:** Diversification, manual management (avoiding smart contract exploits), quarterly rebalancing, and yield reinvestment/distribution.
-- **Economic Model:** AVF appreciates with the basket. Yields/profits distributed quarterly to holders (after 10% operational cost for DAO treasury).
+**Note:** The stablecoin reserve serves as a liquidity buffer, operational runway, and risk management tool.
+
+### 1.3 Execution Standards
+
+- Capital deployed in **tranches** (no lump-sum speculative entries)
+- "Other tokens" require **published research memos**
+- Yield strategies limited to **approved protocols** with **capped exposure**
+
+### 1.4 Backing Mechanism
+
+AVF is fully backed by the basket. Capital raised is used to purchase assets proportionally. NAV (Net Asset Value) of AVF tokens is determined by the basket's value.
 
 ---
 
@@ -148,6 +169,65 @@ Token burns are permitted only through:
   - Monthly AMAs, early member bonuses (AVF, NFTs).
 - **Roadmap:**
   - Launch with seed round (founders bootstrap basket), Q3-Q4 2025 full operations.
+
+---
+
+## 6. Rebalancing & Risk Management
+
+### 6.1 Rebalancing
+
+- **Standard Cadence:** Quarterly
+- **Early Rebalance:** Triggered by defined drift thresholds
+- **Documentation:** All rebalances documented and reported
+
+### 6.2 Risk Limits
+
+- Maximum DeFi exposure **capped**
+- Maximum exposure per protocol and per bridge **capped**
+- **No leverage** without explicit governance approval
+
+### 6.3 Drawdown Response
+
+Material drawdowns trigger a risk-off posture:
+- Reduction of speculative exposure
+- Increased liquidity
+- Governance review before re-risking
+
+---
+
+## 7. Distributions
+
+### 7.1 Principles
+
+- Distributions are **not guaranteed**
+- Distributions are **declared, not assumed**
+- Paid in **stablecoins only**
+- Proportional to holdings at record date
+- **Distributions are never paid in newly minted AVF**
+
+### 7.2 Eligible Sources
+
+- Realized gains
+- Net yield
+- Excess reserves explicitly approved
+
+### 7.3 Frequency
+
+- **Maximum:** Quarterly
+
+### 7.4 Bootstrapping Split (Initial Phase)
+
+Recommended for first eight quarters:
+- **40%** reinvested
+- **20%** operations/security/compliance
+- **40%** distributed
+
+### 7.5 Mature Phase Target
+
+Subject to governance approval:
+- **20%** reinvested
+- **10%** operations
+- **70%** distributed
 
 ---
 
