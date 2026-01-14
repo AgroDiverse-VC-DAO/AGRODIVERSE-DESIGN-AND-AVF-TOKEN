@@ -37,7 +37,6 @@ Initial capital deployment ($280,000 equivalent):
 | XRP   | XRP Ledger | 5%      | Fast, low-cost cross-border utility |
 | XLM   | Stellar | 5%         | Micropayments, interoperability |
 | D223  | Ethereum| 16%        | DEX223 innovation, utility yields |
-| Other Tokens | Multi | 10% | Size-capped and memo-approved |
 | Stablecoin Reserve | Multi | 20% | Liquidity buffer, operational runway, risk management |
 
 **Note:** The stablecoin reserve serves as a liquidity buffer, operational runway, and risk management tool.
@@ -45,7 +44,6 @@ Initial capital deployment ($280,000 equivalent):
 ### 1.3 Execution Standards
 
 - Capital deployed in **tranches** (no lump-sum speculative entries)
-- "Other tokens" require **published research memos**
 - Yield strategies limited to **approved protocols** with **capped exposure**
 
 ### 1.4 Backing Mechanism
