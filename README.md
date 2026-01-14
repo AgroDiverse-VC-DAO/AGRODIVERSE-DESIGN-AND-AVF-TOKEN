@@ -33,19 +33,78 @@ AgroDiverse VC (AVC) is a decentralized autonomous organization (DAO) operating 
 
 ---
 
-## 2. AVF Token Design
+## 2. AVF Token Design & Tokenomics
 
-- **Standard & Network:** Native ERC-223 token on Ethereum (improved security over ERC-20, DEX223 compatible).
-- **Issuance & Distribution:**
-  - Minted during funding rounds based on contributed capital (proportional to NAV).
-  - **Total Supply:** Capped at 8,000,000,000 (circulates post-MSIG during minting rounds, DAO-governed).
-  - **Utility:** Fractional basket ownership, governance rights (delegate voting), tradeable on DEX223.
-- **Pricing:** Determined by AVF trading price snapshot on DEX223 at each funding round start.
-- **Funding Rounds:** Quarterly (Jan, Apr, Jul, Oct), extras by DAO vote. Contributors send crypto to smart contract, minting AVF and allocating funds to treasury.
-- **Tokenomics:**
-  - **Divisibility:** 18 decimals (micro-investments, $10 min).
-  - **Fees:** 0.5% transfer fee (to DAO treasury).
-  - **Burning:** Optional, via DAO-voted burns.
+### 2.1 Token Definition
+
+The AVF token is an ERC-223 token issued on Ethereum representing:
+- Participation in the fund's net asset value (NAV)
+- Governance rights as defined by DAO rules
+
+**Important:** The AVF token is not equity, debt, or a guaranteed income instrument.
+
+### 2.2 Micro-Unit Standard
+
+AVF is denominated as a micro-unit of NAV:
+- **At Genesis:** 1 AVF = $0.01 of NAV
+- **Post-Genesis:** NAV per AVF floats based on total verified assets divided by circulating AVF supply
+
+### 2.3 Supply Cap
+
+The total AVF token supply is **permanently capped** at:
+- **8,000,000,000 AVF**
+
+No authority—founder, delegate, or DAO—may authorize minting above this cap.
+
+### 2.4 Issuance Rule (Hard Constraint)
+
+AVF tokens may be minted **only** when:
+- New capital enters the fund
+- Capital is verified at designated treasury addresses
+- Minting is strictly determined by NAV at the issuance timestamp
+
+**Explicitly Prohibited:**
+- Discretionary minting
+- Promotional or marketing mints
+- Retroactive minting
+- Minting to seed liquidity without asset backing
+- Governance-motivated minting
+
+### 2.5 Issuance Formula
+
+For each eligible contribution:
+```
+Minted AVF = (Net Contribution in USD) ÷ (NAV per AVF in USD)
+```
+
+All variables, price sources, and timestamps must be published in advance of funding rounds.
+
+### 2.6 Genesis Issuance
+
+- **Initial Capital:** $280,000
+- **Genesis NAV:** $280,000
+- **NAV per AVF:** $0.01
+- **Genesis Circulating Supply:** 28,000,000 AVF
+
+Genesis issuance must be accompanied by a published **Genesis Record** including:
+- Treasury addresses
+- Proof of funds
+- Mint transactions
+- NAV computation
+
+### 2.7 Fees
+
+- **Transfer Fee:** 0.5% AVF transfer fee (routed entirely to DAO treasury)
+- **Purpose:** Fund operations, security, and compliance
+- **Adjustment:** Fees may be adjusted only through governance and must be publicly disclosed
+
+### 2.8 Burns
+
+Token burns are permitted only through:
+- Explicit governance approval
+- Documented rationale and impact analysis
+
+**Note:** Burns are not a substitute for issuance discipline.
 
 ---
 
