@@ -33,10 +33,10 @@ Initial capital deployment ($280,000 equivalent):
 |-------|---------|------------|-----------|
 | BTC   | Bitcoin | 30%        | Store-of-value, long-term growth |
 | ETH   | Ethereum| 12%        | Smart contracts, DeFi exposure   |
-| SOL   | Solana  | 6%         | High-throughput, ecosystem growth |
+| SOL   | Solana  | 12%        | High-throughput, ecosystem growth |
 | XRP   | XRP Ledger | 5%      | Fast, low-cost cross-border utility |
 | XLM   | Stellar | 5%         | Micropayments, interoperability |
-| D223  | Ethereum| 12%        | DEX223 innovation, utility yields |
+| D223  | Ethereum| 16%        | DEX223 innovation, utility yields |
 | Other Tokens | Multi | 10% | Size-capped and memo-approved |
 | Stablecoin Reserve | Multi | 20% | Liquidity buffer, operational runway, risk management |
 
